@@ -1,17 +1,17 @@
-# @laboratoria/curriculum-parser
+# @kaudal/curriculum-parser
 
-Command line tool used to parse content written in markdown for our LMS at
-@Laboratoria (See [Laboratoria/bootcamp](https://github.com/Laboratoria/bootcamp)).
+Command line tool used to parse content written in markdown for our courses in Aprende at @kaudal 
+<!-- (See [Laboratoria/bootcamp](https://github.com/Laboratoria/bootcamp)). -->
 
-![Node.js CI](https://github.com/Laboratoria/curriculum-parser/workflows/Node.js%20CI/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/Laboratoria/curriculum-parser/badge.svg?branch=master)](https://coveralls.io/github/Laboratoria/curriculum-parser?branch=master)
+![Node.js CI](https://github.com/Kaudal/curriculum-parser/workflows/Node.js%20CI/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/Kaudal/curriculum-parser/badge.svg?branch=main)](https://coveralls.io/github/Kaudal/curriculum-parser?branch=main)
 
 ## Installation
 
 Install as a development dependency in your project:
 
 ```sh
-npm i --save-dev @laboratoria/curriculum-parser
+npm i --save-dev @kaudal/curriculum-parser
 ```
 
 You should now be able to run it with `npx`:
@@ -21,13 +21,13 @@ npx curriculum-parser # when already installed in project
 
 # or alternatively using full package name (with org)
 # this works even if not previously installed.
-npx @laboratoria/curriculum-parser
+npx @kaudal/curriculum-parser
 ```
 
 You can also install `curriculum-parser` _globally_ using `npm` like this:
 
 ```sh
-npm i -g @laboratoria/curriculum-parser
+npm i -g @kaudal/curriculum-parser
 ```
 
 If you get a permission error please try using `sudo` (you may need admin
@@ -35,14 +35,14 @@ permissions depending on your node installation).
 
 ```sh
 # using `sudo` (only if previous step failed)
-sudo npm i -g @laboratoria/curriculum-parser
+sudo npm i -g @kaudal/curriculum-parser
 ```
 
 Alternatively you can install using a local clone.
 
 ```sh
 # clone from your own fork
-git clone git@github.com:<your-username>/curriculum-parser.git
+git clone git@github.com:<your-username>Kaudal/curriculum-parser.git
 cd curriculum-parser
 npm install
 npm link
@@ -59,7 +59,7 @@ sudo npm link
 If you installed _globally_ using `npm` you can simply re-install like so:
 
 ```sh
-npm i -g @laboratoria/curriculum-parser
+npm i -g @kaudal/curriculum-parser
 ```
 
 If you chose to install using a local clone, you can update your clone to
@@ -69,7 +69,7 @@ _upstream_ master:
 # go into local copy of repo
 cd curriculum-parser
 # if not yet added a reference to upstream remote we add it
-git remote add upstream git@github.com:Laboratoria/curriculum-parser.git
+git remote add upstream git@github.com:Kaudal/curriculum-parser.git
 # fetch changes and merge upstream/master into local master
 git fetch upstream
 git merge upstream/master
@@ -98,9 +98,8 @@ Global options:
   -V                Show version
 
 ```
-
-## Examples
-
+## Example
+<!-- 
 ### Parse a topic (course) within the `Laboratoria/bootcamp` repo
 
 ```sh
@@ -158,6 +157,7 @@ curriculum-parser topic 00-topics/00-intro-ux \
   --track ux \
   --locale es-ES
 ```
+ -->
 
 ### Parse a topic (course) in some arbitrary directory
 
