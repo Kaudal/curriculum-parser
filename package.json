@@ -1,5 +1,5 @@
 {
-  "name": "@laboratoria/curriculum-parser",
+  "name": "@kaudal/curriculum-parser",
   "version": "3.0.0",
   "license": "MIT",
   "bin": {
