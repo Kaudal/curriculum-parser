@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const models = require('@laboratoria/models')(mongoose);
+const models = require('@kaudal/models')(mongoose);
 const helpers = require('./helpers');
 const course = require('../lib/course');
 

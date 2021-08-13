@@ -1,6 +1,6 @@
 const path = require('path');
 const mongoose = require('mongoose');
-const models = require('@laboratoria/models')(mongoose);
+const models = require('@kaudal/models')(mongoose);
 const helpers = require('./helpers');
 const project = require('../lib/project');
 const pkg = require('../package.json');
