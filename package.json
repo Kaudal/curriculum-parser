@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@kaudal/models": "^1.0.0",
-    "chalk": "^4.1.1",
+    "chalk": "^5.0.1",
     "js-yaml": "^4.1.0",
     "jsdom": "^16.6.0",
     "marked": "^2.1.1",
