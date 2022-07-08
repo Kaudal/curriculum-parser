@@ -15,7 +15,7 @@
     "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --oneline --format=\"* %h %s\""
   },
   "dependencies": {
-    "@kaudal/models": "^1.0.0",
+    "@kaudal/models": "^2.0.1",
     "chalk": "^5.0.1",
     "js-yaml": "^4.1.0",
     "jsdom": "^16.6.0",
