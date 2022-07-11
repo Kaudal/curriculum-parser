@@ -6,7 +6,7 @@
     "curriculum-parser": "index.js"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
     "pretest": "eslint .",
